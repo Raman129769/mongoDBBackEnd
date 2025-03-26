@@ -17,7 +17,8 @@ mongoose
 
 const userSchema = new mongoose.Schema({
     name: { type: String, required: true },
-    email: { type: String, requird: true }
+    email: { type: String, requird: true },
+    org: { type: String, requird: true }
 });
 const User = mongoose.model('User', userSchema);
 
